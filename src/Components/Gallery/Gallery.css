@@ -1,0 +1,44 @@
+.Insta{
+    width:350px;
+}
+.Gallery-Container{
+    
+    position: relative;
+    top: 900px;
+}
+.gallery-2{
+    width:1000px;
+    margin-top: 96px;
+}
+.Insta img{
+    width:350px;
+}
+.Group{
+    display: flex;
+}
+.image-gallery-container ul{
+    display: table;
+    list-style: none;
+
+}
+.image-gallery-container ul:not(:first-child)
+{
+    margin-top: -70px;
+}
+.image-gallery-container ul li{
+    float:left;
+}
+.image-gallery-container ul:first-child{
+    
+    align-items: center;
+}
+.image-gallery-container ul li img{
+    margin: 5px;
+    width: 132px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px
+
+
+}

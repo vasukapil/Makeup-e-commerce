@@ -1,0 +1,108 @@
+.pricing{
+    position: relative;
+    top:800px;
+
+    
+
+}
+.pricing h3{
+    padding: 16px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.Price-Container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+}
+.pricing span{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 28px;
+    width: 276px;
+    
+    word-wrap:break-word;
+    
+    
+}
+ .pricing span:first-child{
+    padding: 10px;
+   
+    display: inline-block;
+    text-align: left;
+    margin-top: 40px;
+    } 
+
+.pink{
+    border-radius: 20px;
+    background-color:#DB7093;
+    color: #fff;
+    width:155px;
+    margin-left: 30px;
+    padding:8px;
+
+
+}
+.line{
+    position: absolute;
+width: 1314.01px;
+height: 0px;
+left: 63px;
+top: 74px;
+
+border: 1px solid #909090;
+margin-bottom: 20px;
+
+}
+.line2{
+    position: absolute;
+    width: 1314.01px;
+    height: 0px;
+    left: 63px;
+    top: 524px;
+    
+    border: 1px solid #909090;
+    margin-bottom: 20px;
+}
+.gallery{
+    height:400px;
+    width:1377px;
+    margin-top: 70px;
+}
+.gallery img{
+    height: 367px;
+    width: 330px;
+}
+.prices-1,.prices-2,.prices-3{
+   height: 100px; 
+}
+.facilities{
+    height: 100vh;
+    
+}
+.oval{
+    padding: 20px;
+}
+.contain{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 36px;
+    color: #DB7093;
+    margin-bottom: 100px;
+}
+h2{
+    font-size: 55px;
+    color: #DB7093;
+    margin-top: 20px;
+    text-align: center;
+}
+.portfolio{
+    margin-top: 30px;
+}

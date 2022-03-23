@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
+
+.Testimonial-container{
+    position: relative;
+    top: 900px;
+
+}
+.detail-container{
+    height: 746px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/Users/sudhirkumar/Desktop/makeup/public/Images/Rectangle 19.png");
+   
+}
+.first img{
+    height: 661px;
+    width:469px;
+    border:8px  #DB7093;
+}
+.second{
+    margin-left: 50px;
+    height: 100%;
+}
+.second h3{
+    font-size: 48px;
+    margin-top:167px; 
+    margin-bottom: 69px;
+    color: #DB7093;
+    text-align: center;
+    font-family: 'Sirin Stencil', cursive;
+    
+}
+.wrap{
+
+    font-size: 21px;
+    font-weight: 400;
+    padding-bottom: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.box{
+    width: 589px;
+    height: 208px;
+    word-wrap: break-word;
+    line-height: 25px;
+    margin-left: 30px;
+    text-align: center;
+}
+.detail-container .left{
+  height: 20px;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  top:60%;
+  margin-left: 60px;
+ 
+}
+.detail-container .right{
+    position: absolute;
+    height: 20px;
+  width: 10px;
+  top:60%;
+  right: 15px;
+  margin-left: -20px;
+}

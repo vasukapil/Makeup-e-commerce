@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    height: 145px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Contacts li{
+    margin-top: 20px;
+    vertical-align: middle;
+    font-family: 'Roboto';
+    
+}
+.Contacts li:last-child{
+    
+    margin-left: 12px;
+    list-style: none;
+    
+}
+.Contacts ul{
+    width: 211px;
+}
+.social img{
+    width:25px;
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 27px;
+   
+  
+}
+.Logo{
+    margin-top: 0px;
+}
+.Menu li{
+    display: inline;
+    padding: 10px;
+    border-left-style: solid;
+    border-color: #909090;
+    font-size: 28px;
+}
+.Contacts li img{
+   width: 18px;
+   height: 22px;
+}
+.Menu li:first-child{
+    color: #DB7093;
+    ;
+}
